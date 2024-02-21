@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/momofy-dotnet-sdk/momofy-dotnet/bin
+/momofy-dotnet-sdk/MomofyDemoApp
+/momofy-dotnet-sdk/TestingMomofy
+/momofy-dotnet-sdk/TestMomofy
+/momofy-dotnet-sdk/.vs/momofy-dotnet-sdk
+/.vs
+/momofy-dotnet-sdk/momofy-dotnet-sdk.sln
+/momofy-dotnet-sdk/momofy-dotnet/obj
