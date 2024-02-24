@@ -23,7 +23,7 @@ Goto the  [Dashboard](https://app.momofy.com/)
 To install this package run
 
 ```bash
-  
+  dotnet add package momofy-dotnet-sdk --version 1.0.0
 ```
 ```bash
   
@@ -51,14 +51,16 @@ To be able to perform transactions using this SDK you need to get your API Secre
 
 ## Usage
 
-
+```bash
+MomofyClient momofyClient  = new MomofyClient("your_secret_key");
+```
 
 ### Initiate Transaction
 
 Request payment from your customers
 
 ```php
-
+momofyClient.RequestPayment(PaymentRequest object)
 
 ```
 

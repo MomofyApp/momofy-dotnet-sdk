@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "momofy-dotnet-sdk", "momofy-dotnet-sdk", "{0908D653-8730-448D-82A7-F54EBBC3F90A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "momofy-dotnet-sdk", "momofy-dotnet-sdk\momofy-dotnet\momofy-dotnet-sdk.csproj", "{672893EA-5351-4DA7-8E23-38578B87823E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{672893EA-5351-4DA7-8E23-38578B87823E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672893EA-5351-4DA7-8E23-38578B87823E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672893EA-5351-4DA7-8E23-38578B87823E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672893EA-5351-4DA7-8E23-38578B87823E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{672893EA-5351-4DA7-8E23-38578B87823E} = {0908D653-8730-448D-82A7-F54EBBC3F90A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {331E29AB-0647-4E08-9A1C-82781A43371B}
+	EndGlobalSection
+EndGlobal
