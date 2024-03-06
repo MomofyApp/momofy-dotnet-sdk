@@ -25,9 +25,7 @@ To install this package run
 ```bash
   dotnet add package momofy-dotnet-sdk --version 1.0.0
 ```
-```bash
-  
-```
+
 
 
 ### Environment Variables
@@ -51,7 +49,7 @@ To be able to perform transactions using this SDK you need to get your API Secre
 
 ## Usage
 
-```bash
+```c#
 MomofyClient momofyClient  = new MomofyClient("your_secret_key");
 ```
 
@@ -59,7 +57,7 @@ MomofyClient momofyClient  = new MomofyClient("your_secret_key");
 
 Request payment from your customers
 
-```php
+```c#
 momofyClient.RequestPayment(PaymentRequest object)
 
 ```
@@ -67,7 +65,7 @@ momofyClient.RequestPayment(PaymentRequest object)
 
 #### Request Response
 
-```php
+```c#
 
 
 ```
@@ -101,7 +99,7 @@ momofyClient.RequestPayment(PaymentRequest object)
 
 Verify your transaction by providing the transaction ref ID. 
 
-```php
+```c#
 
 ```
 ###
@@ -109,7 +107,7 @@ Verify your transaction by providing the transaction ref ID.
 #### Verification Response
 
 
-```php
+```c#
 
 
 ```
